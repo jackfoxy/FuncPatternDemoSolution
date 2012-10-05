@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>PrintfFormat&lt;TPrinter, TState, TResidue, TResult, TTuple&gt; - Microsoft&#174; Visual Studio&#174; 2012 Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css" rel="stylesheet" href="../main.css"/>
+    <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="../js/navigation.js"></script>
+    <script type="text/javascript" src="../js/example.js"></script>
+  </head>
+  <body><div id="namespaces">
+	<h2 class="fixed">Namespaces</h2>
+	<div class="scroll">
+		<ul>
+			<li>
+          <a href="../FSharp.Control/index.htm">FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../FSharp.IO/index.htm">FSharp.IO</a>
+      </li>
+			<li>
+          <a href="../FSharp.Net/index.htm">FSharp.Net</a>
+      </li>
+			<li>
+          <a href="../FSharpx/index.htm">FSharpx</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Core/index.htm">FSharpx.Core</a>
+      </li>
+			<li>
+          <a href="../FSharpx.DataStructures/index.htm">FSharpx.DataStructures</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Http/index.htm">FSharpx.Http</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Observable/index.htm">FSharpx.Observable</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders/index.htm">FSharpx.TypeProviders</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.AppSettings/index.htm">FSharpx.TypeProviders.AppSettings</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Documents/index.htm">FSharpx.TypeProviders.Documents</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Excel/index.htm">FSharpx.TypeProviders.Excel</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase/index.htm">FSharpx.TypeProviders.Freebase</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.DesignTime/index.htm">FSharpx.TypeProviders.Freebase.DesignTime</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.FreebaseRuntime/index.htm">FSharpx.TypeProviders.Freebase.FreebaseRuntime</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.FreebaseTypeExtender/index.htm">FSharpx.TypeProviders.Freebase.FreebaseTypeExtender</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Graph/index.htm">FSharpx.TypeProviders.Graph</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Machine/index.htm">FSharpx.TypeProviders.Machine</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Math/index.htm">FSharpx.TypeProviders.Math</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Regex/index.htm">FSharpx.TypeProviders.Regex</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Xaml/index.htm">FSharpx.TypeProviders.Xaml</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections/index.htm">Microsoft.FSharp.Collections</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections.Tagged/index.htm">Microsoft.FSharp.Collections.Tagged</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Control/index.htm">Microsoft.FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Core/index.htm" class="current">Microsoft.FSharp.Core</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Core.CompilerServices/index.htm">Microsoft.FSharp.Core.CompilerServices</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Data.TypeProviders.DesignTime/index.htm">Microsoft.FSharp.Data.TypeProviders.DesignTime</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Data.UnitSystems.SI.UnitNames/index.htm">Microsoft.FSharp.Data.UnitSystems.SI.UnitNames</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq/index.htm">Microsoft.FSharp.Linq</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq.QueryRunExtensions/index.htm">Microsoft.FSharp.Linq.QueryRunExtensions</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq.RuntimeHelpers/index.htm">Microsoft.FSharp.Linq.RuntimeHelpers</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Math/index.htm">Microsoft.FSharp.Math</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Metadata/index.htm">Microsoft.FSharp.Metadata</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.NativeInterop/index.htm">Microsoft.FSharp.NativeInterop</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Quotations/index.htm">Microsoft.FSharp.Quotations</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Reflection/index.htm">Microsoft.FSharp.Reflection</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text/index.htm">Microsoft.FSharp.Text</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Lexing/index.htm">Microsoft.FSharp.Text.Lexing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Parsing/index.htm">Microsoft.FSharp.Text.Parsing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.StructuredFormat/index.htm">Microsoft.FSharp.Text.StructuredFormat</a>
+      </li>
+			<li>
+          <a href="../Samples.FSharp.ProvidedTypes/index.htm">Samples.FSharp.ProvidedTypes</a>
+      </li>
+			<li>
+          <a href="../Utilities.Caching/index.htm">Utilities.Caching</a>
+      </li>
+		</ul>
+	</div>
+</div><div id="types">
+  <h2 class="fixed">Types in Microsoft.FSharp.Core</h2>
+	<div class="scroll">
+		<ul>
+				<li>
+            <a href="../Microsoft.FSharp.Core/AbstractClassAttribute.htm">AbstractClassAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/AllowNullLiteralAttribute.htm">AllowNullLiteralAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/AutoOpenAttribute.htm">AutoOpenAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/AutoSerializableAttribute.htm">AutoSerializableAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/Checked.htm">Checked</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ClassAttribute.htm">ClassAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CLIEventAttribute.htm">CLIEventAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CLIMutableAttribute.htm">CLIMutableAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ComparisonConditionalOnAttribute.htm">ComparisonConditionalOnAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilationArgumentCountsAttribute.htm">CompilationArgumentCountsAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilationMappingAttribute.htm">CompilationMappingAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilationRepresentationAttribute.htm">CompilationRepresentationAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilationRepresentationFlags.htm">CompilationRepresentationFlags</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilationSourceNameAttribute.htm">CompilationSourceNameAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompiledNameAttribute.htm">CompiledNameAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CompilerMessageAttribute.htm">CompilerMessageAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CustomComparisonAttribute.htm">CustomComparisonAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CustomEqualityAttribute.htm">CustomEqualityAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/CustomOperationAttribute.htm">CustomOperationAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/DefaultAugmentationAttribute.htm">DefaultAugmentationAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/DefaultValueAttribute.htm">DefaultValueAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/EntryPointAttribute.htm">EntryPointAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/EqualityConditionalOnAttribute.htm">EqualityConditionalOnAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ErrorStrings.htm">ErrorStrings</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ExperimentalAttribute.htm">ExperimentalAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ExtraTopLevelOperators.htm">ExtraTopLevelOperators</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`2.htm">FSharpChoice&lt;T1, T2&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`3.htm">FSharpChoice&lt;T1, T2, T3&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`4.htm">FSharpChoice&lt;T1, T2, T3, T4&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`5.htm">FSharpChoice&lt;T1, T2, T3, T4, T5&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`6.htm">FSharpChoice&lt;T1, T2, T3, T4, T5, T6&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpChoice`7.htm">FSharpChoice&lt;T1, T2, T3, T4, T5, T6, T7&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpFunc`3.htm">FSharpFunc`3</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpFunc`4.htm">FSharpFunc`4</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpFunc`5.htm">FSharpFunc`5</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpFunc`6.htm">FSharpFunc`6</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpInterfaceDataVersionAttribute.htm">FSharpInterfaceDataVersionAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpRef`1.htm">FSharpRef&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FSharpTypeFunc.htm">FSharpTypeFunc</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FuncConvert.htm">FuncConvert</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/FuncConvertExtensions.htm">FuncConvertExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/GeneralizableValueAttribute.htm">GeneralizableValueAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/HashCompare.htm">HashCompare</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/InterfaceAttribute.htm">InterfaceAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/IntrinsicFunctions.htm">IntrinsicFunctions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/IntrinsicOperators.htm">IntrinsicOperators</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/LanguagePrimitives.htm">LanguagePrimitives</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/LazyModule.htm">LazyModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/LiteralAttribute.htm">LiteralAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/MatchFailureException.htm">MatchFailureException</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/MeasureAnnotatedAbbreviationAttribute.htm">MeasureAnnotatedAbbreviationAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/MeasureAttribute.htm">MeasureAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/NoComparisonAttribute.htm">NoComparisonAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/NoDynamicInvocationAttribute.htm">NoDynamicInvocationAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/NoEqualityAttribute.htm">NoEqualityAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/NumericLiteralI.htm">NumericLiteralI</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/NumericLiterals.htm">NumericLiterals</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/OperatorIntrinsics.htm">OperatorIntrinsics</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/Operators.htm">Operators</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/OptimizedClosures.htm">OptimizedClosures</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/OptionalArgumentAttribute.htm">OptionalArgumentAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/OptionModule.htm">OptionModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/PrintfFormat`4.htm">PrintfFormat&lt;TPrinter, TState, TResidue, TResult&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/PrintfFormat`5.htm" class="current">PrintfFormat&lt;TPrinter, TState, TResidue, TResult, TTuple&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/PrintfModule.htm">PrintfModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ProjectionParameterAttribute.htm">ProjectionParameterAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ReferenceEqualityAttribute.htm">ReferenceEqualityAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/ReflectedDefinitionAttribute.htm">ReflectedDefinitionAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/RequireQualifiedAccessAttribute.htm">RequireQualifiedAccessAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/RequiresExplicitTypeArgumentsAttribute.htm">RequiresExplicitTypeArgumentsAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/SealedAttribute.htm">SealedAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/SourceConstructFlags.htm">SourceConstructFlags</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/StringModule.htm">StringModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/StructAttribute.htm">StructAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/StructuralComparisonAttribute.htm">StructuralComparisonAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/StructuralEqualityAttribute.htm">StructuralEqualityAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/StructuredFormatDisplayAttribute.htm">StructuredFormatDisplayAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/Tags.htm">Tags</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/Unchecked.htm">Unchecked</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/Unit.htm">Unit</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/UnverifiableAttribute.htm">UnverifiableAttribute</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Core/VolatileFieldAttribute.htm">VolatileFieldAttribute</a>
+        </li>
+		</ul>
+	</div>
+</div>
+    <div class="header">
+		<p class="class"><strong>Type</strong> PrintfFormat&lt;TPrinter, TState, TResidue, TResult, TTuple&gt;</p>
+		<p><strong>Namespace</strong> Microsoft.FSharp.Core</p>
+		<p><strong>Parent</strong> <a href="../Microsoft.FSharp.Core/PrintfFormat`4.htm">PrintfFormat&lt;TPrinter, TState, TResidue, TResult&gt;</a></p>
+	</div>
+    <div class="sub-header">
+			<div id="summary">Type of a formatting expression. 
+			</div>
+		
+		
+		
+			<h3 class="section">Properties</h3>
+			<ul>
+				<li><a href="../Microsoft.FSharp.Core/PrintfFormat`5.htm#Value">Value</a></li>
+			</ul>
+		
+	</div>
+	
+	
+	
+	
+  <h3 class="section">Public properties</h3>
+
+  <div id="Value" class="method">
+    <h4><span title="System.string">string</span> <strong>Value</strong> get; </h4>
+    <div class="content">
+      
+    </div>
+  </div>
+	<div id="footer">
+  <p>Based on v4.3.0.0 of FSharp.Core.dll (Microsoft&#174; Visual Studio&#174; 2012)</p>
+  <p>Generated by <a href="http://docu.jagregory.com">docu</a></p>
+</div>
+  </body>
+</html>

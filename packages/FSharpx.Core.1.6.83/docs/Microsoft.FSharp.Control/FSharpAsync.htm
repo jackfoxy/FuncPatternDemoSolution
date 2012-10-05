@@ -1,0 +1,964 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>FSharpAsync - Microsoft&#174; Visual Studio&#174; 2012 Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css" rel="stylesheet" href="../main.css"/>
+    <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="../js/navigation.js"></script>
+    <script type="text/javascript" src="../js/example.js"></script>
+  </head>
+  <body><div id="namespaces">
+	<h2 class="fixed">Namespaces</h2>
+	<div class="scroll">
+		<ul>
+			<li>
+          <a href="../FSharp.Control/index.htm">FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../FSharp.IO/index.htm">FSharp.IO</a>
+      </li>
+			<li>
+          <a href="../FSharp.Net/index.htm">FSharp.Net</a>
+      </li>
+			<li>
+          <a href="../FSharpx/index.htm">FSharpx</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Core/index.htm">FSharpx.Core</a>
+      </li>
+			<li>
+          <a href="../FSharpx.DataStructures/index.htm">FSharpx.DataStructures</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Http/index.htm">FSharpx.Http</a>
+      </li>
+			<li>
+          <a href="../FSharpx.Observable/index.htm">FSharpx.Observable</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders/index.htm">FSharpx.TypeProviders</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.AppSettings/index.htm">FSharpx.TypeProviders.AppSettings</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Documents/index.htm">FSharpx.TypeProviders.Documents</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Excel/index.htm">FSharpx.TypeProviders.Excel</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase/index.htm">FSharpx.TypeProviders.Freebase</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.DesignTime/index.htm">FSharpx.TypeProviders.Freebase.DesignTime</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.FreebaseRuntime/index.htm">FSharpx.TypeProviders.Freebase.FreebaseRuntime</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Freebase.FreebaseTypeExtender/index.htm">FSharpx.TypeProviders.Freebase.FreebaseTypeExtender</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Graph/index.htm">FSharpx.TypeProviders.Graph</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Machine/index.htm">FSharpx.TypeProviders.Machine</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Math/index.htm">FSharpx.TypeProviders.Math</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Regex/index.htm">FSharpx.TypeProviders.Regex</a>
+      </li>
+			<li>
+          <a href="../FSharpx.TypeProviders.Xaml/index.htm">FSharpx.TypeProviders.Xaml</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections/index.htm">Microsoft.FSharp.Collections</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Collections.Tagged/index.htm">Microsoft.FSharp.Collections.Tagged</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Control/index.htm" class="current">Microsoft.FSharp.Control</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Core/index.htm">Microsoft.FSharp.Core</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Core.CompilerServices/index.htm">Microsoft.FSharp.Core.CompilerServices</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Data.TypeProviders.DesignTime/index.htm">Microsoft.FSharp.Data.TypeProviders.DesignTime</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Data.UnitSystems.SI.UnitNames/index.htm">Microsoft.FSharp.Data.UnitSystems.SI.UnitNames</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq/index.htm">Microsoft.FSharp.Linq</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq.QueryRunExtensions/index.htm">Microsoft.FSharp.Linq.QueryRunExtensions</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Linq.RuntimeHelpers/index.htm">Microsoft.FSharp.Linq.RuntimeHelpers</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Math/index.htm">Microsoft.FSharp.Math</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Metadata/index.htm">Microsoft.FSharp.Metadata</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.NativeInterop/index.htm">Microsoft.FSharp.NativeInterop</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Quotations/index.htm">Microsoft.FSharp.Quotations</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Reflection/index.htm">Microsoft.FSharp.Reflection</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text/index.htm">Microsoft.FSharp.Text</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Lexing/index.htm">Microsoft.FSharp.Text.Lexing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.Parsing/index.htm">Microsoft.FSharp.Text.Parsing</a>
+      </li>
+			<li>
+          <a href="../Microsoft.FSharp.Text.StructuredFormat/index.htm">Microsoft.FSharp.Text.StructuredFormat</a>
+      </li>
+			<li>
+          <a href="../Samples.FSharp.ProvidedTypes/index.htm">Samples.FSharp.ProvidedTypes</a>
+      </li>
+			<li>
+          <a href="../Utilities.Caching/index.htm">Utilities.Caching</a>
+      </li>
+		</ul>
+	</div>
+</div><div id="types">
+  <h2 class="fixed">Types in Microsoft.FSharp.Control</h2>
+	<div class="scroll">
+		<ul>
+				<li>
+            <a href="../Microsoft.FSharp.Control/AsyncResult`1.htm">AsyncResult&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/AsyncResultCell`1.htm">AsyncResultCell&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/AsyncStreamReader.htm">AsyncStreamReader</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/AsyncWorker`1.htm">AsyncWorker&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/CommonExtensions.htm">CommonExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/EventModule.htm">EventModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FileExtensions.htm">FileExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpAsync.htm" class="current">FSharpAsync</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpAsyncBuilder.htm">FSharpAsyncBuilder</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpAsyncReplyChannel`1.htm">FSharpAsyncReplyChannel&lt;TReply&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpDelegateEvent`1.htm">FSharpDelegateEvent&lt;TDelegate&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpEvent`1.htm">FSharpEvent&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpEvent`2.htm">FSharpEvent&lt;TDelegate, TArgs&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpHandler`1.htm">FSharpHandler&lt;T&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/FSharpMailboxProcessor`1.htm">FSharpMailboxProcessor&lt;TMsg&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/IDelegateEvent`1.htm">IDelegateEvent&lt;TDelegate&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/IEvent`2.htm">IEvent&lt;TDelegate, TArgs&gt;</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/LazyExtensions.htm">LazyExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/ObservableModule.htm">ObservableModule</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/StreamReaderExtensions.htm">StreamReaderExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/Tags.htm">Tags</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/WebClientExtensions.htm">WebClientExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/WebExtensions.htm">WebExtensions</a>
+        </li>
+				<li>
+            <a href="../Microsoft.FSharp.Control/WebRequestExtensions.htm">WebRequestExtensions</a>
+        </li>
+		</ul>
+	</div>
+</div>
+    <div class="header">
+		<p class="class"><strong>Type</strong> FSharpAsync</p>
+		<p><strong>Namespace</strong> Microsoft.FSharp.Control</p>
+	</div>
+    <div class="sub-header">
+			<div id="summary">This static class holds members for creating and manipulating asynchronous computations. 
+			</div>
+		
+		
+			<h3 class="section">Methods</h3>
+			<ul>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#AsBeginEnd``2">AsBeginEnd&lt;TArg, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#AwaitEvent``2">AwaitEvent&lt;TDel, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#AwaitIAsyncResult">AwaitIAsyncResult</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#AwaitTask``1">AwaitTask&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#AwaitWaitHandle">AwaitWaitHandle</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#CancelDefaultToken">CancelDefaultToken</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#Catch``1">Catch&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#FromBeginEnd``1">FromBeginEnd&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#FromBeginEnd``2">FromBeginEnd&lt;TArg1, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#FromBeginEnd``3">FromBeginEnd&lt;TArg1, TArg2, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#FromBeginEnd``4">FromBeginEnd&lt;TArg1, TArg2, TArg3, T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#FromContinuations``1">FromContinuations&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#Ignore``1">Ignore&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#OnCancel">OnCancel</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#Parallel``1">Parallel&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#RunSynchronously``1">RunSynchronously&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#Sleep">Sleep</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#Start">Start</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#StartAsTask``1">StartAsTask&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#StartChild``1">StartChild&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#StartChildAsTask``1">StartChildAsTask&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#StartImmediate">StartImmediate</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#StartWithContinuations``1">StartWithContinuations&lt;T&gt;</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#SwitchToContext">SwitchToContext</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#SwitchToNewThread">SwitchToNewThread</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#SwitchToThreadPool">SwitchToThreadPool</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#TryCancelled``1">TryCancelled&lt;T&gt;</a></li>
+			</ul>
+		
+			<h3 class="section">Properties</h3>
+			<ul>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#CancellationToken">CancellationToken</a></li>
+				<li><a href="../Microsoft.FSharp.Control/FSharpAsync.htm#DefaultCancellationToken">DefaultCancellationToken</a></li>
+			</ul>
+		
+	</div>
+	
+	
+	
+	<h3 class="section">Public static methods</h3>
+	
+	<div id="AsBeginEnd``2" class="method">
+		<h4><span title="System.Tuple<FSharpFunc<Tuple<TArg, AsyncCallback, object>, IAsyncResult>, FSharpFunc<IAsyncResult, T>, FSharpFunc<IAsyncResult, Unit>>">Tuple&lt;FSharpFunc&lt;Tuple&lt;TArg, AsyncCallback, object&gt;, IAsyncResult&gt;, FSharpFunc&lt;IAsyncResult, T&gt;, FSharpFunc&lt;IAsyncResult, Unit&gt;&gt;</span> <strong>AsBeginEnd&lt;TArg, T&gt;</strong>(<a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> computation)</h4>
+		<div class="content">Creates three functions that can be used to implement the.NET Asynchronous
+Programming Model (APM) for a given asynchronous computation. <blockquote class="remarks">
+  The functions should normally be published as members with prefix  <code>Begin</code> , <code>End</code>  and  <code>Cancel</code> , and can be used within a type definition as follows: <code>let beginAction,endAction,cancelAction = Async.AsBeginEnd (fun arg -> computation)
+member x.BeginSomeOperation(arg,callback,state:obj) = beginAction(arg,callback,state)
+member x.EndSomeOperation(iar) = endAction(iar)
+member x.CancelSomeOperation(iar) = cancelAction(iar)</code> If the asynchronous computation takes no arguments, then AsBeginEnd is used as follows: <code>let beginAction,endAction,cancelAction = Async.AsBeginEnd (fun () -> computation)
+member x.BeginSomeOperation(callback,state:obj) = beginAction((),callback,state)
+member x.EndSomeOperation(iar) = endAction(iar)
+member x.CancelSomeOperation(iar) = cancelAction(iar)</code> If the asynchronous computation takes two arguments, then AsBeginEnd is used as follows: <code>let beginAction,endAction,cancelAction = Async.AsBeginEnd (fun arg1 arg2 -> computation)
+member x.BeginSomeOperation(arg1,arg2,callback,state:obj) = beginAction((),callback,state)
+member x.EndSomeOperation(iar) = endAction(iar)
+member x.CancelSomeOperation(iar) = cancelAction(iar)</code> In each case, the resulting API will be familiar to programmers in other CLI languages and
+is a useful way to publish asynchronous computations in CLI components. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> computation</h6>
+          <p class="comments">A function generating the asynchronous computation to split into the traditional
+.NET Asynchronous Programming Model. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Tuple<FSharpFunc<Tuple<TArg, AsyncCallback, object>, IAsyncResult>, FSharpFunc<IAsyncResult, T>, FSharpFunc<IAsyncResult, Unit>>">Tuple&lt;FSharpFunc&lt;Tuple&lt;TArg, AsyncCallback, object&gt;, IAsyncResult&gt;, FSharpFunc&lt;IAsyncResult, T&gt;, FSharpFunc&lt;IAsyncResult, Unit&gt;&gt;</span></code></h6>
+        <p>A tuple of the begin, end, and cancel members. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="AwaitEvent``2" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>AwaitEvent&lt;TDel, T&gt;</strong>(<a href="../Microsoft.FSharp.Control/IEvent`2.htm">IEvent&lt;TDelegate, TArgs&gt;</a> event, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancelAction)</h4>
+		<div class="content">Creates an asynchronous computation that waits for a single invocation of a CLI
+event by adding a handler to the event. Once the computation completes or is
+cancelled, the handler is removed from the event. <blockquote class="remarks">
+  The computation will respond to cancellation while waiting for the event. If a
+cancellation occurs, and  <code>cancelAction</code>  is specified, then it is executed, and
+the computation continues to wait for the event.
+If  <code>cancelAction</code>  is not specified, then cancellation causes the computation
+to cancel immediately. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/IEvent`2.htm">IEvent&lt;TDelegate, TArgs&gt;</a></code> event</h6>
+          <p class="comments">The event to handle once. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancelAction</h6>
+          <p class="comments">An optional function to execute instead of cancelling when a
+cancellation is issued. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that waits for the event to be invoked. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="AwaitIAsyncResult" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>AwaitIAsyncResult</strong>(<span title="System.IAsyncResult">IAsyncResult</span> iar, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> millisecondsTimeout)</h4>
+		<div class="content">Creates an asynchronous computation that will wait on the IAsyncResult. <blockquote class="remarks">
+  The computation returns true if the handle indicated a result within the given timeout. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.IAsyncResult">IAsyncResult</span></code> iar</h6>
+          <p class="comments">The IAsyncResult to wait on. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> millisecondsTimeout</h6>
+          <p class="comments">The timeout value in milliseconds.  If one is not provided
+then the default value of -1 corresponding to  <code>System.Threading.Timeout.Infinite</code>. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that waits on the given  <code>IAsyncResult</code>. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="AwaitTask``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>AwaitTask&lt;T&gt;</strong>(<span title="System.Threading.Tasks.Task<T>">Task&lt;T&gt;</span> task)</h4>
+		<div class="content">Return an asynchronous computation that will wait for the given task to complete and return
+its result. 
+
+
+
+      
+    </div>
+	</div>
+	<div id="AwaitWaitHandle" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>AwaitWaitHandle</strong>(<span title="System.Threading.WaitHandle">WaitHandle</span> waitHandle, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> millisecondsTimeout)</h4>
+		<div class="content">Creates an asynchronous computation that will wait on the given WaitHandle. <blockquote class="remarks">
+  The computation returns true if the handle indicated a result within the given timeout. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Threading.WaitHandle">WaitHandle</span></code> waitHandle</h6>
+          <p class="comments">The  <code>WaitHandle</code>  that can be signalled. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> millisecondsTimeout</h6>
+          <p class="comments">The timeout value in milliseconds.  If one is not provided
+then the default value of -1 corresponding to  <code>System.Threading.Timeout.Infinite</code>. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that waits on the given  <code>WaitHandle</code>. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="CancelDefaultToken" class="method">
+		<h4><span title="System.void">void</span> <strong>CancelDefaultToken</strong>()</h4>
+		<div class="content">Raises the cancellation condition for the most recent set of asynchronous computations started
+without any specific CancellationToken. Replaces the global CancellationTokenSource with a new
+global token source for any asynchronous computations created after this point without any
+specific CancellationToken. 
+
+
+
+      
+    </div>
+	</div>
+	<div id="Catch``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>Catch&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation)</h4>
+		<div class="content">Creates an asynchronous computation that executes  <code>computation</code>.
+If this computation completes successfully then return  <code>Choice1Of2</code>  with the returned
+value. If this computation raises an exception before it completes then return  <code>Choice2Of2</code> with the raised exception. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The input computation that returns the type T. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A computation that returns a choice of type T or exception. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="FromBeginEnd``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>FromBeginEnd&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> beginAction, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> endAction, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancelAction)</h4>
+		<div class="content">Creates an asynchronous computation in terms of a Begin/End pair of actions in
+the style used in CLI APIs. For example, <code>Async.FromBeginEnd(ws.BeginGetWeather,ws.EndGetWeather)</code> When the computation is run,  <code>beginFunc</code>  is executed, with
+a callback which represents the continuation of the computation.
+When the callback is invoked, the overall result is fetched using  <code>endFunc</code>. <blockquote class="remarks">
+  The computation will respond to cancellation while waiting for the completion
+of the operation. If a cancellation occurs, and  <code>cancelAction</code>  is specified, then it is
+executed, and the computation continues to wait for the completion of the operation.
+If  <code>cancelAction</code>  is not specified, then cancellation causes the computation
+to stop immediately, and subsequent invocations of the callback are ignored. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> beginAction</h6>
+          <p class="comments">The function initiating a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> endAction</h6>
+          <p class="comments">The function completing a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancelAction</h6>
+          <p class="comments">An optional function to be executed when a cancellation is requested. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation wrapping the given Begin/End functions. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="FromBeginEnd``2" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>FromBeginEnd&lt;TArg1, T&gt;</strong>(<span title="Microsoft.FSharp.Control.TArg1">TArg1</span> arg, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> beginAction, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> endAction, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancelAction)</h4>
+		<div class="content">Creates an asynchronous computation in terms of a Begin/End pair of actions in
+the style used in CLI APIs. This overlaod should be used if the operation is
+qualified by one argument. For example, <code>Async.FromBeginEnd(place,ws.BeginGetWeather,ws.EndGetWeather)</code> When the computation is run,  <code>beginFunc</code>  is executed, with
+a callback which represents the continuation of the computation.
+When the callback is invoked, the overall result is fetched using  <code>endFunc</code>. <blockquote class="remarks">
+  The computation will respond to cancellation while waiting for the completion
+of the operation. If a cancellation occurs, and  <code>cancelAction</code>  is specified, then it is
+executed, and the computation continues to wait for the completion of the operation.
+If  <code>cancelAction</code>  is not specified, then cancellation causes the computation
+to stop immediately, and subsequent invocations of the callback are ignored. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="Microsoft.FSharp.Control.TArg1">TArg1</span></code> arg</h6>
+          <p class="comments">The argument for the operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> beginAction</h6>
+          <p class="comments">The function initiating a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> endAction</h6>
+          <p class="comments">The function completing a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancelAction</h6>
+          <p class="comments">An optional function to be executed when a cancellation is requested. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation wrapping the given Begin/End functions. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="FromBeginEnd``3" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>FromBeginEnd&lt;TArg1, TArg2, T&gt;</strong>(<span title="Microsoft.FSharp.Control.TArg1">TArg1</span> arg1, <span title="Microsoft.FSharp.Control.TArg2">TArg2</span> arg2, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> beginAction, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> endAction, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancelAction)</h4>
+		<div class="content">Creates an asynchronous computation in terms of a Begin/End pair of actions in
+the style used in CLI APIs. This overlaod should be used if the operation is
+qualified by two arguments. For example, <code>Async.FromBeginEnd(arg1,arg2,ws.BeginGetWeather,ws.EndGetWeather)</code> When the computation is run,  <code>beginFunc</code>  is executed, with
+a callback which represents the continuation of the computation.
+When the callback is invoked, the overall result is fetched using  <code>endFunc</code>. <blockquote class="remarks">
+  The computation will respond to cancellation while waiting for the completion
+of the operation. If a cancellation occurs, and  <code>cancelAction</code>  is specified, then it is
+executed, and the computation continues to wait for the completion of the operation.
+If  <code>cancelAction</code>  is not specified, then cancellation causes the computation
+to stop immediately, and subsequent invocations of the callback are ignored. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="Microsoft.FSharp.Control.TArg1">TArg1</span></code> arg1</h6>
+          <p class="comments">The first argument for the operation. </p>
+          <h6><code><span title="Microsoft.FSharp.Control.TArg2">TArg2</span></code> arg2</h6>
+          <p class="comments">The second argument for the operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> beginAction</h6>
+          <p class="comments">The function initiating a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> endAction</h6>
+          <p class="comments">The function completing a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancelAction</h6>
+          <p class="comments">An optional function to be executed when a cancellation is requested. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation wrapping the given Begin/End functions. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="FromBeginEnd``4" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>FromBeginEnd&lt;TArg1, TArg2, TArg3, T&gt;</strong>(<span title="Microsoft.FSharp.Control.TArg1">TArg1</span> arg1, <span title="Microsoft.FSharp.Control.TArg2">TArg2</span> arg2, <span title="Microsoft.FSharp.Control.TArg3">TArg3</span> arg3, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> beginAction, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> endAction, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancelAction)</h4>
+		<div class="content">Creates an asynchronous computation in terms of a Begin/End pair of actions in
+the style used in CLI APIs. This overlaod should be used if the operation is
+qualified by three arguments. For example, <code>Async.FromBeginEnd(arg1,arg2,arg3,ws.BeginGetWeather,ws.EndGetWeather)</code> When the computation is run,  <code>beginFunc</code>  is executed, with
+a callback which represents the continuation of the computation.
+When the callback is invoked, the overall result is fetched using  <code>endFunc</code>. <blockquote class="remarks">
+  The computation will respond to cancellation while waiting for the completion
+of the operation. If a cancellation occurs, and  <code>cancelAction</code>  is specified, then it is
+executed, and the computation continues to wait for the completion of the operation.
+If  <code>cancelAction</code>  is not specified, then cancellation causes the computation
+to stop immediately, and subsequent invocations of the callback are ignored. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="Microsoft.FSharp.Control.TArg1">TArg1</span></code> arg1</h6>
+          <p class="comments">The first argument for the operation. </p>
+          <h6><code><span title="Microsoft.FSharp.Control.TArg2">TArg2</span></code> arg2</h6>
+          <p class="comments">The second argument for the operation. </p>
+          <h6><code><span title="Microsoft.FSharp.Control.TArg3">TArg3</span></code> arg3</h6>
+          <p class="comments">The third argument for the operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> beginAction</h6>
+          <p class="comments">The function initiating a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> endAction</h6>
+          <p class="comments">The function completing a traditional CLI asynchronous operation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancelAction</h6>
+          <p class="comments">An optional function to be executed when a cancellation is requested. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation wrapping the given Begin/End functions. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="FromContinuations``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>FromContinuations&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> callback)</h4>
+		<div class="content">Creates an asynchronous computation that captures the current
+success, exception and cancellation continuations. The callback must
+eventually call exactly one of the given continuations. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> callback</h6>
+          <p class="comments">The function that accepts the current success, exception, and cancellation
+continuations. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that provides the callback with the current continuations. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="Ignore``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>Ignore&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation)</h4>
+		<div class="content">Creates an asynchronous computation that runs the given computation and ignores
+its result. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The input computation. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A computation that is equivalent to the input computation, but disregards the result. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="OnCancel" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>OnCancel</strong>(<a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> interruption)</h4>
+		<div class="content">Generates a scoped, cooperative cancellation handler for use within an asynchronous workflow. <blockquote class="remarks">
+  For example, <code>async { use! holder = Async.OnCancel interruption... }</code> generates an asynchronous computation where, if a cancellation happens any time during
+the execution of the asynchronous computation in the scope of  <code>holder</code> , then action <code>interruption</code>  is executed on the thread that is performing the cancellation. This can
+be used to arrange for a computation to be asynchronously notified that a cancellation
+has occurred, e.g. by setting a flag, or deregistering a pending I/O action. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> interruption</h6>
+          <p class="comments">The function that is executed on the thread performing the
+cancellation. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that triggers the interruption if it is cancelled
+before being disposed. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="Parallel``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>Parallel&lt;T&gt;</strong>(<span title="System.Collections.Generic.IEnumerable<FSharpAsync<T>>">IEnumerable&lt;FSharpAsync&lt;T&gt;&gt;</span> computations)</h4>
+		<div class="content">Creates an asynchronous computation that executes all the given asynchronous computations,
+initially queueing each as work items and using a fork/join pattern. <blockquote class="remarks">
+  If all child computations succeed, an array of results is passed to the success continuation.
+If any child computation raises an exception, then the overall computation will trigger an
+exception, and cancel the others.
+The overall computation will respond to cancellation while executing the child computations.
+If cancelled, the computation will cancel any remaining child computations but will still wait
+for the other child computations to complete. 
+</blockquote>
+
+
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A computation that returns an array of values from the sequence of input computations. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="RunSynchronously``1" class="method">
+		<h4><span title="Microsoft.FSharp.Control.T">T</span> <strong>RunSynchronously&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> timeout, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancellationToken)</h4>
+		<div class="content">Runs the asynchronous computation and await its result. <blockquote class="remarks">
+  If an exception occurs in the asynchronous computation then an exception is re-raised by this
+function.
+If no cancellation token is provided then the default cancellation token is used.
+The timeout parameter is given in milliseconds.  A value of -1 is equivalent to
+System.Threading.Timeout.Infinite. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The computation to run. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> timeout</h6>
+          <p class="comments">The amount of time in milliseconds to wait for the result of the
+computation before raising a  <code>System.TimeoutException</code>.  If no value is provided
+for timeout then a default of -1 is used to correspond to System.Threading.Timeout.Infinite. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancellationToken</h6>
+          <p class="comments">The cancellation token to be associated with the computation.
+If one is not supplied, the default cancellation token is used. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="Microsoft.FSharp.Control.T">T</span></code></h6>
+        <p>The result of the computation. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="Sleep" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>Sleep</strong>(<span title="System.int">int</span> millisecondsDueTime)</h4>
+		<div class="content">Creates an asynchronous computation that will sleep for the given time. This is scheduled
+using a System.Threading.Timer object. The operation will not block operating system threads
+for the duration of the wait. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.int">int</span></code> millisecondsDueTime</h6>
+          <p class="comments">The number of milliseconds to sleep. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that will sleep for the given time. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="Start" class="method">
+		<h4><span title="System.void">void</span> <strong>Start</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancellationToken)</h4>
+		<div class="content">Starts the asynchronous computation in the thread pool. Do not await its result. <blockquote class="remarks">
+  If no cancellation token is provided then the default cancellation token is used. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The computation to run asynchronously. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancellationToken</h6>
+          <p class="comments">The cancellation token to be associated with the computation.
+If one is not supplied, the default cancellation token is used. </p>
+      </div>
+
+      
+    </div>
+	</div>
+	<div id="StartAsTask``1" class="method">
+		<h4><span title="System.Threading.Tasks.Task<T>">Task&lt;T&gt;</span> <strong>StartAsTask&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> taskCreationOptions, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancellationToken)</h4>
+		<div class="content">Executes a computation in the thread pool. <blockquote class="remarks">
+  If no cancellation token is provided then the default cancellation token is used. 
+</blockquote>
+
+
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><span title="System.Threading.Tasks.Task<T>">Task&lt;T&gt;</span></code></h6>
+        <p>A  <code>System.Threading.Tasks.Task</code>  that will be completed
+in the corresponding state once the computation terminates (produces the result, throws exception or gets canceled) </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="StartChild``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>StartChild&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> millisecondsTimeout)</h4>
+		<div class="content">Starts a child computation within an asynchronous workflow.
+This allows multiple asynchronous computations to be executed simultaneously. <blockquote class="remarks">
+  This method should normally be used as the immediate
+right-hand-side of a  <code>let!</code>  binding in an F# asynchronous workflow, that is,
+async {...
+let! completor1 = childComputation1 |> Async.StartChild
+let! completor2 = childComputation2 |> Async.StartChild
+...
+let! result1 = completor1
+let! result2 = completor2
+... }
+When used in this way, each use of  <code>StartChild</code>  starts an instance of  <code>childComputation</code> and returns a completor object representing a computation to wait for the completion of the operation.
+When executed, the completor awaits the completion of  <code>childComputation</code>. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The child computation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> millisecondsTimeout</h6>
+          <p class="comments">The timeout value in milliseconds.  If one is not provided
+then the default value of -1 corresponding to  <code>System.Threading.Timeout.Infinite</code>. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A new computation that waits for the input computation to finish. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="StartChildAsTask``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>StartChildAsTask&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> taskCreationOptions)</h4>
+		<div class="content">Creates an asynchronous computation which starts the given computation as a  <code>System.Threading.Tasks.Task</code> 
+
+
+
+      
+    </div>
+	</div>
+	<div id="StartImmediate" class="method">
+		<h4><span title="System.void">void</span> <strong>StartImmediate</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancellationToken)</h4>
+		<div class="content">Runs an asynchronous computation, starting immediately on the current operating system
+thread. <blockquote class="remarks">
+  If no cancellation token is provided then the default cancellation token is used. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The asynchronous computation to execute. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancellationToken</h6>
+          <p class="comments">The  <code>CancellationToken</code>  to associate with the computation.
+The default is used if this parameter is not provided. </p>
+      </div>
+
+      
+    </div>
+	</div>
+	<div id="StartWithContinuations``1" class="method">
+		<h4><span title="System.void">void</span> <strong>StartWithContinuations&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> continuation, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> exceptionContinuation, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> cancellationContinuation, <a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a> cancellationToken)</h4>
+		<div class="content">Runs an asynchronous computation, starting immediately on the current operating system
+thread. Call one of the three continuations when the operation completes. <blockquote class="remarks">
+  If no cancellation token is provided then the default cancellation token
+is used. 
+</blockquote>
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The asynchronous computation to execute. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> continuation</h6>
+          <p class="comments">The function called on success. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> exceptionContinuation</h6>
+          <p class="comments">The function called on exception. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> cancellationContinuation</h6>
+          <p class="comments">The function called on cancellation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpOption`1.htm">FSharpOption&lt;T&gt;</a></code> cancellationToken</h6>
+          <p class="comments">The  <code>CancellationToken</code>  to associate with the computation.
+The default is used if this parameter is not provided. </p>
+      </div>
+
+      
+    </div>
+	</div>
+	<div id="SwitchToContext" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>SwitchToContext</strong>(<span title="System.Threading.SynchronizationContext">SynchronizationContext</span> syncContext)</h4>
+		<div class="content">Creates an asynchronous computation that runs
+its continuation using syncContext.Post. If syncContext is null
+then the asynchronous computation is equivalent to SwitchToThreadPool(). 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><span title="System.Threading.SynchronizationContext">SynchronizationContext</span></code> syncContext</h6>
+          <p class="comments">The synchronization context to accept the posted computation. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that uses the syncContext context to execute. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="SwitchToNewThread" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>SwitchToNewThread</strong>()</h4>
+		<div class="content">Creates an asynchronous computation that creates a new thread and runs
+its continuation in that thread. 
+
+
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A computation that will execute on a new thread. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="SwitchToThreadPool" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>SwitchToThreadPool</strong>()</h4>
+		<div class="content">Creates an asynchronous computation that queues a work item that runs
+its continuation. 
+
+
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>A computation that generates a new work item in the thread pool. </p>
+      </div>
+      
+    </div>
+	</div>
+	<div id="TryCancelled``1" class="method">
+		<h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>TryCancelled&lt;T&gt;</strong>(<a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> computation, <a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a> compensation)</h4>
+		<div class="content">Creates an asynchronous computation that executes  <code>computation</code>.
+If this computation is cancelled before it completes then the computation generated by
+running  <code>compensation</code>  is executed. 
+
+
+      <div class="parameters">
+        <h5>Parameters</h5>
+
+          <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code> computation</h6>
+          <p class="comments">The input asynchronous computation. </p>
+          <h6><code><a href="../Microsoft.FSharp.Core/FSharpFunc`2.htm">FSharpFunc&lt;T, TResult&gt;</a></code> compensation</h6>
+          <p class="comments">The function to be run if the computation is cancelled. </p>
+      </div>
+
+      <div class="return">
+        <h5>Return</h5>
+        <h6><code><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a></code></h6>
+        <p>An asynchronous computation that runs the compensation if the input computation
+is cancelled. </p>
+      </div>
+      
+    </div>
+	</div>
+	
+  <h3 class="section">Public properties</h3>
+
+  <div id="CancellationToken" class="method">
+    <h4><a href="../Microsoft.FSharp.Control/FSharpAsync`1.htm">FSharpAsync&lt;T&gt;</a> <strong>CancellationToken</strong> get; </h4>
+    <div class="content">Creates an asynchronous computation that returns the CancellationToken governing the execution
+of the computation. <blockquote class="remarks">
+  In  <code>async { let! token = Async.CancellationToken...}</code>  token can be used to initiate other
+asynchronous operations that will cancel cooperatively with this workflow. 
+</blockquote>
+      
+    </div>
+  </div>
+  <div id="DefaultCancellationToken" class="method">
+    <h4><span title="System.Threading.CancellationToken">CancellationToken</span> <strong>DefaultCancellationToken</strong> get; </h4>
+    <div class="content">Gets the default cancellation token for executing asynchronous computations. 
+      
+    </div>
+  </div>
+	<div id="footer">
+  <p>Based on v4.3.0.0 of FSharp.Core.dll (Microsoft&#174; Visual Studio&#174; 2012)</p>
+  <p>Generated by <a href="http://docu.jagregory.com">docu</a></p>
+</div>
+  </body>
+</html>
